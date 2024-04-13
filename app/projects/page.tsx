@@ -4,12 +4,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, LinkedinIcon, Twitter } from "lucide-react";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
 export default function Projects() {
   return (
     <>
-      <div className="mx-auto mt-5 grid max-w-[59rem] flex-1 auto-rows-max gap-4">
+      <div className="p-5 mx-auto grid max-w-[59rem] flex-1 auto-rows-max gap-4">
         <div className="flex items-center gap-4">
           <Button variant="outline" size="icon" className="h-7 w-7" asChild>
             <Link href="/">
